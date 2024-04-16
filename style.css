@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+.landingDiv{
+    background-color: #404EED;
+}
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #404EED;
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+.dicodeLogo {
+    width: 150px;
+}
+
+.menuSearch ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.loginButton {
+    background-color: aliceblue;
+    color: #000000;
+    padding: 8px 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+}
+
+.backgroundImage {
+    background-image: url("https://assets-global.website-files.com/6257adef93867e50d84d30e2/644fab4da9dbd93a7dfae97b_e6d57714479874c665b36c7adee76b1d.svg");
+    display: flex;
+    height: 90vh;
+}
+
+.leftImage {
+    width: 550px;
+    position: relative;
+    left: -100px;
+    bottom: -160px;
+    background-color: transparent;
+}
+
+.rightImage {
+    width: 550px;
+    position: relative;
+    right: -418px;
+    bottom: -138px;
+    background-color: transparent;
+}
+
+.textMain {
+    height: 60vh;
+    align-self: center;
+    text-align: center;
+    width: 80vh;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: absolute;
+    left: 30%;
+    background-color: transparent;
+}
+
+.textMain h1 {
+    font-size: 56px;
+}
+
+.textMain p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.Download {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 8px 10px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+}
+
+.buttonImg {
+    width: 25px;
+    background-color: transparent;
+}
+
+.DownloadDiscord {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+}
+
+.btnMain {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.featureSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100vh;
+}
+
+.featureText{
+    font-size: 25px;
+    background-color: transparent;
+    width: 430px;
+}
+
+.featureText h1{
+    font-size: 50px;
+}
+
+.featureText p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #000000b0;
+}
+
+.featureSectionBackground{
+    background-color: #f6f6f6;
+}
+.featureSection3{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100vh;
+}
+.featureSection3 h1{
+    font-size: 50px;
+}
+.featureSection3 p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #000000b0;
+    text-align: center;
+}
+.featureSection4Text{
+    background-image: url("https://assets-global.website-files.com/6257adef93867e50d84d30e2/625bd8c9aab9924849ad9c5e_a188414ce83f2454b9d71a47c3d95909%20(3).svg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.featureSection4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.featureSection4 button{
+    background-color: #404EED;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+}
